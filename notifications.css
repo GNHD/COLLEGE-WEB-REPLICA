@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .notification-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .notification-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .notification-date {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .notification-content {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Add more styling as needed */
+  
